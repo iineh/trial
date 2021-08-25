@@ -1,3 +1,12 @@
+trigger:
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - docs
+    exclude:
+    - docs/README.md
 pool:
   vmImage: ubuntu-18.04
 stages:
