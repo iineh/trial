@@ -1,12 +1,12 @@
 trigger:
   branches:
     include:
-    - master
+    - main
   paths:
     include:
     - docs
     exclude:
-    - docs/README.md
+    - docs/test.txt
 pool:
   vmImage: ubuntu-18.04
 stages:
