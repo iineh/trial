@@ -8,6 +8,16 @@ trigger:
     exclude:
     - docs/test.txt
     - README.md
+pr:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - docs
+    exclude:
+    - docs/test.txt
+    - README.md
 pool:
   vmImage: ubuntu-18.04
 stages:
