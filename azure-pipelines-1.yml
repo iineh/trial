@@ -1,0 +1,6 @@
+schedules:
+- cron: "20 13 * * *"
+  displayName: Daily 
+  branches:
+    include:
+    - main
