@@ -1,0 +1,7 @@
+# YAML file in the main branch
+schedules:
+- cron: "17 13 * * *"
+  displayName: Daily 
+  branches:
+    include:
+    - main
